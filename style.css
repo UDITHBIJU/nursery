@@ -1,0 +1,1057 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+}
+.head {
+	text-align: center;
+	background-color: #0089cf;
+}
+nav {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
+}
+.navbar {
+	margin-right: 40px;
+	display: flex;
+	max-width: 60%;
+	align-items: center;
+	justify-content: space-around;
+}
+.logo {
+	display: flex;
+	justify-content: flex-start;
+	width: 32%;
+	align-items: center;
+}
+.logo img {
+	height: 50px;
+}
+
+.navbar li {
+	display: inline-block;
+	margin: 20px;
+}
+.btn {
+	background-color: #0089CF;
+	padding: 5px;
+	border-radius: 5px;
+}
+.landing {
+	background-color: #e1eff0;
+	display: flex;
+	flex-direction: column;
+	height: 90vh;
+	justify-content: center;
+}
+.landing_content {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	margin-top: 30px;
+	
+}
+.limg {
+	height: 400px;
+}
+.landing_content-text {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	max-width: 50%;
+}
+.landing_content-image {
+	display: flex;
+	justify-content: center;
+	max-width: 50%;
+	align-items: center;
+}
+.landing_content-text h1 {
+	font-family: "Paytone One", sans-serif;
+	font-weight: 600;
+	margin-bottom: 20px;
+	font-size: 62.37px;
+	line-height: 76.46px;
+}
+.landing_content p {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 33.47px;
+}
+.landing_content-btn {
+	margin-top: 20px;
+	display: flex;
+	gap: 35px;
+}
+.landing_content-btn button {
+	padding: 10px;
+	border-radius: 20px;
+	font-weight: bold;
+	width: 135px;
+}
+.btn-yellow {
+	border: 2px solid#0089CF;
+	background-color: #fff7e2;
+}
+@font-face {
+	font-family: pbolder;
+	src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+}
+
+/* -------------------------------------------------ABOUT---------------------------------------------------------- */
+
+.about {
+	height: 100vh;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.about-text h1 {
+	font-family: "Paytone One", sans-serif;
+}
+.about-text p {
+	font-size: 16px;
+	font-weight: 700;
+	width: 70%;
+	line-height: 33.47px;
+}
+.about-text {
+	flex: 1;
+}
+.about-image {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+}
+.about-image img {
+	height: 400px;
+}
+
+/* ------------------------------------------------philosophy------------------ */
+.philosophy {
+	display: flex;
+	background-color: #e1eff0;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.philosophy img {
+	height: 500px;
+}
+.philosophy_img {
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+}
+.philosophy_text {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+.philosophy_text h1 {
+	font-family: "Paytone One", sans-serif;
+	margin-bottom: 20px;
+	font-size: 40px;
+	margin-top: 15px;
+}
+.philosophy_text p {
+	width: 80%;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 29.9px;
+}
+.philosophy_text li {
+	font-family: "Nunito", sans-serif;
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: philosphy_ul;
+	src: url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap");
+}
+.philosophy_text img {
+	height: 80px;
+}
+
+/* ------------------------------------------servies--------------------------*/
+
+.card-width {
+	width: 370px !important;
+	background-color:#E1EFF0!important;
+	margin-bottom: 15px;
+}
+.mgt {
+	margin-top: 20px;
+}
+/* -------------------------------------------------------contact----------------------------------------------------- */
+.contact {
+	width: 100%;
+	background-color: #e1eff0;
+	margin-top: 150px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 150px;
+}
+.contact-container {
+	background-color: #00A6E5;
+	display: flex;
+	width: 70%;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 35px;
+	padding: 50px;
+}
+.form_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.contact_form {
+	display: flex;
+	height: 100%;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.contact_text {
+	width: 50%;
+	color: white;
+}
+.contact_text img {
+	height: 60px;
+}
+.contact_text h1 {
+	font-family: "Paytone One", sans-serif;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 60px;
+}
+.form-input {
+	border-radius: 10px;
+	padding: 10px;
+	border: none;
+	resize: none;
+	width: 300px;
+}
+.form-btn {
+	padding: 10px;
+	border: none;
+	width: 100px;
+	border-radius: 10px;
+}
+.contact_text p {
+	width: 80%;
+}
+input::placeholder {
+	font-weight: bold;
+	color: black;
+}
+textarea::placeholder {
+	font-weight: bold;
+	color: black;
+}
+
+/* -----------------------------------------------------------------footer------------------------------------------------------- */
+
+.footer {
+	display: flex;
+	margin-top: 30px;
+	justify-content: space-evenly;
+	align-content: center;
+}
+.footer_text {
+	width: 25%;
+}
+.footer_links {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-content: center;
+}
+.footer_links li,
+a {
+	list-style: none;
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 15px;
+	color: black;
+	line-height: 29px;
+}
+.footer_links h2,
+.footer_contact h2 {
+	font-family: "Nunito", sans-serif;
+	color: #0089cf;
+	font-size: 20px;
+	font-weight: 800;
+}
+.footer_contact {
+	display: flex;
+	flex-direction: column;
+	padding-top: 20px;
+}
+.footer_contact ul li {
+	margin-top: 23px;
+	list-style: none;
+	display: flex;
+}
+.footer_contact ul li img {
+	height: 26px;
+	width: 26px;
+}
+
+.footer_map iframe {
+		background-color: #00A6E5;
+
+}
+.bottom {
+	margin-top: 50px;
+}
+
+/* --------------------------------------------------about page-------------------------------- */
+
+.about-list {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+.about-list img {
+	height: 50px;
+	width: 50px;
+}
+.about-list h2 {
+	font-size: 20px;
+	font-weight: 400;
+	font-family: "Paytone One", sans-serif;
+}
+.about_text-1 p {
+	font-size: 18px;
+	line-height: 27px;
+	width: 90%;
+	font-family: "Poppins", sans-serif;
+}
+.about_text-container {
+	gap: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.about_text-1 {
+	gap: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.about_philosophy {
+	display: flex;
+	flex-direction: column;
+		background-color: #e1eff0;
+
+}
+.about_philosophy-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 5px;
+	margin-top: 20px;
+}
+.about_philosophy-text p {
+	width: 60%;
+}
+.about_philosophy-text h1 {
+	font-weight: 400;
+	font-family: "Paytone One", sans-serif;
+	font-size: 35px;
+}
+
+.education {
+	--bg-color: #00a6e5;
+	--bg-color-light: #ffeeba;
+	--text-color-hover: #4c5656;
+	--box-shadow-color: rgba(97, 102, 255, 0.48);
+}
+
+.credentialing {
+	--bg-color: #b8f9d3;
+	--bg-color-light: #e2fced;
+	--text-color-hover: #4c5656;
+	--box-shadow-color: rgba(184, 249, 211, 0.48);
+}
+
+.wallet {
+	--bg-color: #ceb2fc;
+	--bg-color-light: #f0e7ff;
+	--text-color-hover: #fff;
+	--box-shadow-color: rgba(206, 178, 252, 0.48);
+}
+
+.human-resources {
+	--bg-color: #dce9ff;
+	--bg-color-light: #f1f7ff;
+	--text-color-hover: #4c5656;
+	--box-shadow-color: rgba(220, 233, 255, 0.48);
+}
+
+.card {
+	background: #fff;
+	overflow: hidden;
+	width: 500px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
+	transition: all 0.3s ease-out;
+	text-decoration: none;
+	border-radius: 20px;
+	position: relative;
+	flex-direction: column;
+	text-align: center;
+	padding: 8px;
+}
+
+
+.card:hover {
+	transform: translateY(-5px) scale(1.005) translateZ(0);
+	box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+		0 24px 46px var(--box-shadow-color);
+}
+
+.card:hover .overlay {
+	transform: scale(8) translateZ(0);
+	display: block;
+}
+
+.card:hover p,.card:hover h2 {
+	color: white;
+}
+
+.card:active {
+	transform: scale(1) translateZ(0);
+	box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11),
+		0 15px 24px var(--box-shadow-color);
+}
+
+.services_container-cards:hover {
+	box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+		0 24px 46px var(--box-shadow-color);
+	transform: translateY(-5px) scale(1.005) translateZ(0);
+}
+.services_container-cards:hover .overlay {
+	transform: scale(1) translateZ(0);
+	display: block;
+}
+.services_container-cards:hover p {
+	color: var(--text-color-hover);
+}
+.services_container-cards:active {
+	transform: scale(1) translateZ(0);
+	box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11),
+		0 15px 24px var(--box-shadow-color);
+}
+.services_head{
+	width: 100%;
+	text-align: center;
+}
+.services_head h4 ,h1{
+		font-weight: 400;
+	font-family: "Paytone One", sans-serif;
+}
+.services_head h4{
+	color: #0089CF;
+
+}
+
+.card p,
+.card h2,
+.card img {
+	font-size: 17px;
+	color: #4c5656;
+	margin-top: 30px;
+	z-index: 1000;
+	transition: color 0.3s ease-out;
+}
+
+.overlay {
+	width: 230px;
+	position: absolute;
+	height: 230px;
+	border-radius: 50%;
+	background: var(--bg-color);
+	top: -184px;
+	left: -227px;
+	z-index: 0;
+	transition: transform 0.3s ease-out;
+}
+.about_philosophy-cards {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+.about_philosophy-cards p {
+	width: 85%;
+	font-size: 14px;
+	line-height: normal;
+}
+.about_philosophy-container {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 30px;
+
+}
+.about_philosophy {
+	align-items: center;
+}
+
+.about_philosophy-cards h2 {
+	font-weight: 400;
+	font-family: "Paytone One", sans-serif;
+	font-size: 25px;
+	width: 67%;
+	color: black;
+}
+.footer_map {
+	display: flex;
+	flex-wrap: wrap;
+	align-self: center;
+}
+.footer_contact ul li {
+	justify-content: flex-start;
+	align-items: flex-end;
+	margin-top: 11px;
+}
+
+@media (min-width: 1015px) and (max-width: 1200px) {
+	.limg {
+		height: 350px;
+	}
+	.about-text p {
+		width: 87%;
+	}
+	.landing_content-text h1 {
+		font-size: 55px;
+	}
+	.philosophy_text img {
+		height: 48px;
+	}
+	.footer_contact ul li {
+		margin-top: 11px;
+	}
+	.footer_contact h2 {
+		margin-top: 47px;
+	}
+
+	.footer_map iframe {
+		height: 200px;
+	}
+}
+@media (min-width: 1200px) and (max-width: 1351px) {
+	.footer_contact {
+		padding-top: 28px;
+	}
+}
+@media (min-width: 320px) and (max-width: 1000px) {
+	.landing_content {
+		flex-direction: column-reverse;
+		margin-top: 120px;
+	}
+	.limg {
+		height: 280px;
+		margin-top: 0px;
+	}
+	.landing_content-image {
+		max-width: 100%;
+	}
+	.landing_content-text {
+		max-width: 100%;
+		padding: 10px;
+		text-align: center;
+	}
+	.landing_content p {
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.landing_content-text h1 {
+		font-size: 35px;
+		font-weight: 100;
+		line-height: 50px;
+	}
+	.about {
+		flex-direction: column;
+		height: auto;
+		margin-top: 110px;
+	}
+	.about img {
+		height: 300px;
+	}
+	.about-text p {
+		width: 100%;
+		font-size: 14px;
+
+		line-height: 25px;
+	}
+	.about-text {
+		padding: 10px;
+		text-align: center;
+	}
+	.philosophy {
+		flex-direction: column-reverse;
+		padding: 10px;
+	}
+	.philosophy img {
+		height: 50px;
+	}
+
+	.philosophy_text {
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+	.philosophy_img {
+		justify-content: center;
+	}
+	.philosophy_img img {
+		height: 300px;
+	}
+	.philosophy_text img {
+		margin: 0;
+	}
+	.philosophy_text p {
+		width: 100%;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 29.9px;
+	}
+	.margin {
+		margin-top: 10px;
+	}
+	.services_container {
+		padding: 10px;
+	}
+	.contact-container {
+		flex-direction: column;
+	}
+	.contact_text {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.contact_text p {
+		width: 100%;
+	}
+	.footer {
+		flex-direction: column;
+	}
+	.footer_text {
+		width: 100%;
+		text-align: center;
+		flex-wrap: wrap;
+	}
+	.footer_text p {
+		padding: 10px;
+	}
+	.footer_links {
+		flex-wrap: wrap;
+		gap: 15px;
+		text-align: center;
+	}
+	.footer_contact {
+		align-items: center;
+		margin-bottom: 30px;
+	}
+	.footer_contact ul {
+		text-align: center;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+	.footer_contact ul li {
+		margin-top: 0px;
+	}
+}
+@media (min-width: 320px) and (max-width: 375px) {
+	.limg {
+		height: 242px;
+	}
+	.landing_content-text h1 {
+		font-size: 27px;
+		font-weight: 100;
+		line-height: 34px;
+	}
+	.about img {
+		height: 250px;
+	}
+	.about-text p {
+		font-size: 13px;
+		line-height: 22px;
+	}
+	.philosophy_img img {
+		height: 250px;
+	}
+	.philosophy_text h1 {
+		font-size: 33px;
+		margin-bottom: 11px;
+	}
+	.philosophy_text p {
+		line-height: 27px;
+	}
+	.philosophy_text li {
+		font-size: 14px;
+	}
+	.contact_text h1 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.form-input {
+		width: 280px;
+	}
+	
+}
+@media (min-width:320px) and (max-width:900px){
+	.team_container{
+		gap: 20px;
+	}
+	
+	.team{
+		padding: 50px !important; 
+	}
+	.col{
+		flex-direction: column;
+	}
+	.colr{
+		flex-direction: column-reverse;
+	}
+
+
+}
+@media (min-width:1000px){
+	.sticky .menutoggle{
+	display: none;
+}
+}
+@media (min-width:320px) and (max-width:500px){
+.card{
+		width: 300px
+	}
+	.about_philosophy-text p {
+	margin-bottom: 10px;}
+	.about-list img{
+		height: 50px;
+	}
+	.gallery_container{
+		padding: 32px;
+	}
+	.office_container{
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		
+	}
+	.card-width{
+		width: 270px !important;
+	}
+	.about_philosophy-cards h2{
+		font-size: 23px;
+	}
+}
+@media (min-width:320px) and (max-width:800px){
+	.landing{
+		height: 100%;
+	}
+	.landing_content-btn{
+		justify-content: center;
+		margin-bottom: 10px;
+	}
+	.button-width{
+		justify-content: center;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+}
+@media (min-width:500px) and (max-width:900px){
+	.about-list img{
+		height: 50px;
+	}
+}
+.wrapper {
+	max-width: 80%;
+}
+
+.wrapper .swiper-wrapper {
+	width: 100%;
+	height: 35em;
+	display: flex;
+	align-items: center;
+}
+
+.wrapper .swiper-wrapper .card {
+	height: 150px;
+	width: 350px;
+	background: #fff;
+	border-radius: 2em;
+	box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
+	padding: 5em 3em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 2em;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+}
+.contact {
+	flex-direction: column;
+	align-items: center;
+}
+.card .profile {
+	display: flex;
+}
+
+.profile_text {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 100%;
+}
+.profile_image {
+	display: flex;
+}
+.team_container {
+	display: flex;
+	width: 90%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+.team-cards {
+	height: 300px;
+	width: 270px;
+	background-color: #00a6e5;
+}
+.team {
+	padding: 110px;
+	display: flex;
+	justify-content: center;
+}
+.facilities {
+	padding: 100px;
+}
+.facilities_container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	flex-direction: column;
+	align-content: center;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+.facilities_cards {
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	border-radius: 30px;
+	background-color: #00a6e5;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.facilities_cards > * {
+	flex: 1;
+}
+.facilities_cards img {
+	height: 200px;
+}
+.facilities_cards-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+}
+.facilities_cards-text p {
+	width: 70%;
+}
+
+.facilities_cards-text img {
+	height: 20px;
+}
+.facilities_cards-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.btn-outer {
+	background-color:#0089CF;
+	
+	display: flex;
+	padding: 2px;
+	border-radius: 20px;
+	justify-content: space-around;
+	width: 135px;
+	color: white;
+}
+#btn-inner {
+	border: 2px dashed white;
+	background-color: #0089CF;
+	padding: 10px;
+	border-radius: 20px;
+	font-weight: bold;
+	color: white;
+	width: 135px;
+}
+
+header {
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	transition: 0.5s;
+	position: fixed;
+	background-color: #e1eef0;
+}
+
+header .navigation {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+}
+header .navigation li {
+	list-style: none;
+}
+header .navigation li a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 300;
+}
+header.sticky .navigation li a {
+	color: #111;
+}
+header.sticky .menutoggle {
+	color: #fff;
+	outline: none;
+}
+
+@media (max-width: 991px) {
+	header .navigation {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 0px;
+		left: 0;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		flex-direction: column;
+		background:#0089CF;
+z-index: 5000;
+		clip-path: circle(0% at 5% 0%);
+		transition: 1s ease;
+	}
+	.logo{
+		display: none;
+	}
+
+	header .navigation.active {
+		clip-path: circle(110% at 50% 50%);
+	}
+
+	header .navigation li {
+		list-style: none;
+		margin-left: 0;
+	}
+	header .navigation li a {
+		text-decoration: none;
+		color: #111;
+		font-size: 1.6em;
+		font-weight: 300;
+		transition: all 0.3s;
+		outline: none;
+	}
+	.menutoggle {
+		z-index: 5001;
+
+		width: 30px;
+		height: 30px;
+		color:black;
+		margin: 10px;
+		font-size: 30px;
+		cursor: pointer;
+	}
+	header.sticky .menutoggle {
+		color: #111;
+	}
+	header{
+		position: fixed;
+		z-index: 5001;
+	}
+	.sticky .menutoggle {
+		width: 90%;
+	}
+}
+.gallery{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.gallery_container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 20px;
+	width: 80%;
+	align-items: center;
+	padding: 50px;
+}
+
+.gallery-images{
+	height: 300px;
+	width: 300px;
+	background-color: skyblue;
+}
+.office_container{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 80px;
+	
+}
+.office_container-cards{
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+.office_container-cards img{
+	height: 50px;
+}
+.footer_text p{
+	margin-bottom: 5px;
+}
+.button-width{
+	width: 100%;
+	display: flex;
+	
+}
+button:hover{
+	cursor:pointer;
+}
+.sticky{
+	flex-direction: column;
+}
+.head{
+	width: 100%;
+}
