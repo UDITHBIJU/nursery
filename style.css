@@ -777,6 +777,9 @@ a {
 		margin-top: 15px;
 		margin-bottom: 15px;
 	}
+	.facilities_cards{
+		height: 720px;
+	}
 }
 @media (min-width:500px) and (max-width:900px){
 	.about-list img{
@@ -855,13 +858,14 @@ a {
 	align-content: center;
 	flex-wrap: wrap;
 	gap: 10px;
+	padding-top: 20px;
 }
 .facilities_cards {
 	display: flex;
 	justify-content: space-around;
 	width: 80%;
 	border-radius: 30px;
-	background-color: #00a6e5;
+	background-color: #e1eff0;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -884,6 +888,9 @@ a {
 
 .facilities_cards-text img {
 	height: 20px;
+}
+.facilities_cards-text h2{
+	font-size: 20px;
 }
 .facilities_cards-img {
 	display: flex;
